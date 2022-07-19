@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(213, 208, 237);
+    padding: 20px;
+}
+header {
+    display: flex;
+    border: dashed red;
+    Font: 45px black;
+    font-style: italic;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+.background-image {
+    background-image: url(https://wallpaperaccess.com/full/187161.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position : relative;
+
+ }
+nav {
+display: flex;
+flex-direction: column;
+padding: 10px;
+font-size: 25px;
+
+}
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    border: dashed red;
+    margin: 25px;
+
+}
+h3{
+    display: flex;
+    text-align: flex-end;
+    border: dashed red;
+    margin: 25px;
+    font-size: 25px;
+}
+.flex-container {
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    border:  red;
+    flex-direction: column;
+    text-align: flex-end;
+    margin: 25px;
+}
+#story {
+    display: flex;
+    border: dashed black;
+    padding: 20px;
+    margin: 15px;
+}
+.project-container {
+    flex-wrap: wrap;
+    display: flex;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    border: dashed rgb(0, 0, 0);
+    margin: 25px;
+   
+} 
+.project-item img {
+    width: 100%;
+    padding: 10px;
+}
+.project-item {
+    width: 50%;
+    position: relative;
+    
+}
+
+.project-item a {
+    display: block;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: black;
+}
+/* #info {
+    display:flex;
+    flex-direction: row;
+    font-style: bold i;
+
+} */
+.contacts {
+    display: flex;
+    justify-content: center;
+
+}
+.contacts li {
+    padding: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+#info {
+    text-align: center;
+}

@@ -43,6 +43,12 @@ h3{
     text-align: flex-end;
     margin: 25px;
 }
+.webImage1 img {
+    
+}
+#movieRec {
+    color: white;
+}
 #story {
     display: flex;
     border-bottom: dashed black;
